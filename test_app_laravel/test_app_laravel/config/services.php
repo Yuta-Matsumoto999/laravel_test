@@ -30,4 +30,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'twitter' => [
+        'client_id' => env('FACEBOOK_API_ID'),
+        'client_secret' => env('FACEBOOK_API_SECRET'),
+        'redirect' => env('FACEBOOK_CALLBACKURL'),
+    ],
+
 ];
